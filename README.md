@@ -30,6 +30,10 @@ This tool is designed specifically for bloggers, content creators, and developer
 ## 🎨 Modern Look & Feel (UI/UX)
 
 The script transforms raw text into a sleek, premium developer experience styled after modern code editors:
+
+![Auto Code Block Highlighter Preview](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm1VDCFATdFHS4u3sIJpPuE78ATRZ5CMFYKu9g3DBSpO1nEDwyEq16juddQsZry5XIwLKeo0JHb9DcRHSDDiq-Px3OdV8rUxwJRB79671DVWRZa8CHek3TCZcfmpZFijzIyO2v0mkrg4q9hcNHkDsA8sVaacVnIeCgnxkkr2a1vg7cclZkccsVbgNuw-M/)
+
+
 * **VS Code Dark Theme:** Code blocks utilize a deeply immersive, high-contrast dark theme optimized for readability and reducing eye strain.
 * **Mac-Style Window Controls:** Each container renders desktop-grade details featuring classic top-left traffic-light window dots (Red, Yellow, Green).
 * **Dynamic Header & Filenames:** If a `data-file` attribute is present, the header dynamically showcases the file name (e.g., `main.go`) to display your file structure cleanly.
