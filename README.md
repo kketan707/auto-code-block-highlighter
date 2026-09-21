@@ -18,7 +18,7 @@ This tool is designed specifically for bloggers, content creators, and developer
 * [🛠️ Built With](#️-built-with)
 * [👥 Author & Version Info](#-author--version-info)
 * [📜 License & Acknowledgments](#-license--acknowledgments)
-
+* [📝 Changelog](#-changelog)
 ---
 
 ## ✨ Features
@@ -100,3 +100,19 @@ The background parser engine will seamlessly detect the tag at runtime, map the 
 
 ## 📜 License & Acknowledgments
 This project is open-source software distributed freely under the standard permissive terms of the **MIT License**. Core syntax styling algorithms and plugins are driven natively via **Prism.js v1.29.0** under identical open permission terms.
+
+## 📝 Changelog
+
+<details>
+<summary><strong>Version History</strong></summary>
+
+<div style="max-height: 150px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; margin-top: 10px;">
+
+### v1.0.1
+Updated tag targeting to prevent regular `<pre>` elements from being affected by the VS Code-style code-block styling.
+
+### v1.0.0
+Stable initial release.
+
+</div>
+</details>

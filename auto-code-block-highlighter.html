@@ -18,7 +18,7 @@
 <script type="text/javascript">
 //<![CDATA[
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("pre").forEach((preBlock) => {
+    document.querySelectorAll("pre.auto-code-block").forEach((preBlock) => {
         if (preBlock.querySelector("code")) return;
 
         // Extract attributes and class styles
@@ -229,31 +229,31 @@ document.addEventListener("DOMContentLoaded", () => {
 <!-- =================== START EXAMPLE SNIPPET =================== -->
 <!-- ========= MODIFY FOLLOWING CODE ACCORDING TO NEED =========== -->
 
-<pre class="language-go" data-file="main.go">
+<pre class="auto-code-block language-go" data-file="main.go">
 package main
 import "fmt"
 func main() { fmt.Println("Hello") }
 </pre>
 
-<pre data-file="script.py">
+<pre class="auto-code-block language-python" data-file="script.py">
 def calculate_metrics(items):
     for i in items:
         print(f"Tracking value: {i}")
 </pre>
 
-<pre class="language-c" data-file="main.c">
+<pre class="auto-code-block language-c" data-file="main.c">
 int main() {
     printf("Hello, World!");
 }
 </pre>
 
-<pre class="language-cpp" data-file="main.cpp">
+<pre class="auto-code-block language-cpp" data-file="main.cpp">
 int main() {
     std::cout << "Hello, World!";
 }
 </pre>
 
-<pre class="language-cs" data-file="main.cs">
+<pre class="auto-code-block language-cs" data-file="main.cs">
 class Program {
     static void Main(string[] args) {
         Console.WriteLine("Hello, World!");
@@ -261,7 +261,7 @@ class Program {
 }
 </pre>
 
-<pre class="language-java" data-file="main.java">
+<pre class="auto-code-block language-java" data-file="main.java">
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -269,7 +269,7 @@ public class HelloWorld {
 }
 </pre>
 
-<pre data-file="styles.css" data-theme="github-light">
+<pre class="auto-code-block language-css" data-file="styles.css" data-theme="github-light">
 /* CSS3 Test Component */
 :root {
     --global-primary: #4a90e2;
@@ -291,7 +291,7 @@ body {
 }
 </pre>
 
-<pre data-file="script.js">
+<pre class="auto-code-block language-js" data-file="script.js">
 // JavaScript Execution & Internationalization (I18n / UTF-8)
 const internationalGreetings = {
     en: "Hello, World! (English)",
@@ -315,7 +315,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </pre>
 
-<pre data-file="script.py">
+<pre class="auto-code-block language-py" data-file="script.py">
 # Python Syntax Parsing Test
 import re
 
@@ -328,7 +328,7 @@ def parse_code_blocks(raw_html: str) -> list:
     return matches
 </pre>
 
-<pre data-file="query.sql" data-theme="monokai">
+<pre class="auto-code-block language-sql" data-file="query.sql" data-theme="monokai">
 -- Database Verification String Test
 SELECT u.id, g.score 
 FROM users u 
